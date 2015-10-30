@@ -9,10 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "Car.h"
 
-@protocol CarBuildable
--(Car*)buildCar;
-@end
-
 @interface Sample02 : NSObject<CarBuildable>
 
 @end

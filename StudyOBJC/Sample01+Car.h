@@ -11,5 +11,5 @@
 #import "Car.h"
 
 @interface Sample01(Sample01PlusCar)
--(void)printCarInfo:(Car*)car;
+-(void)printCarInfo:(id<CarBuildable>)car;
 @end

@@ -10,7 +10,8 @@
 
 @implementation Sample01(Sample01PlusCar)
 
--(void)printCarInfo:(Car *)car {
+-(void)printCarInfo:(id<CarBuildable>)builder {
+    Car* car = [builder buildCar];
     NSLog(@"%@",car.name);
     NSLog(@"%d",car.speed);
 }

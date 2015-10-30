@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Sample02.h"
 
 @interface Sample01 : NSObject
 

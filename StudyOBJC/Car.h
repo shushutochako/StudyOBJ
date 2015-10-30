@@ -9,9 +9,15 @@
 #import <Foundation/Foundation.h>
 
 @interface Car : NSObject
+
 @property (strong, nonatomic) NSString *name;
 @property int speed;
 
 -(instancetype)init;
 -(instancetype)initWithName: (NSString*)name speed:(int)speed;
 @end
+
+@protocol CarBuildable<NSObject>
+-(Car*)buildCar;
+@end
+

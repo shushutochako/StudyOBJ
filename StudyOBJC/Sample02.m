@@ -20,6 +20,6 @@
 -(void)ex01 {
     // 2-2
     Sample01* sample01 = [[Sample01 alloc] init];
-    [sample01 printCarInfo: self.buildCar];
+    [sample01 printCarInfo: self];
 }
 @end
